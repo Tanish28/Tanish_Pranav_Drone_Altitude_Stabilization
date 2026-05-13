@@ -59,17 +59,26 @@ rather than trial-and-error tuning:
 
 ## Results
 
-### Open-loop vs Closed-loop
+### 1. Open-Loop Step Response (No Controller)
 ![Open loop](results/01_open_loop_step_response.png)
 
-### Controller Evolution (P → PD → PID)
+### 2. Bode Plot Comparison
+![Bode](results/02_bode_plot.png)
+
+### 3. Closed-Loop PID Response
+![Closed loop](results/03_closed_loop_pid_response.png)
+
+### 4. Controller Evolution — P vs PD vs PID
 ![Comparison](results/04_controller_comparison_P_PD_PID.png)
 
-### Disturbance Response (wind at t=5s)
+### 5. Disturbance Response (Wind at t=5s)
 ![Disturbance](results/05_simulink_disturbance_response.png)
 
-### Robustness Analysis
+### 6. Robustness Analysis
 ![Robustness](results/06_robustness_sweep.png)
+
+### 7. Root Locus
+![Root locus](results/07_root_locus.png)
 
 ---
 
