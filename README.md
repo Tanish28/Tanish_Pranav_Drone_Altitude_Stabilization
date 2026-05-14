@@ -80,6 +80,26 @@ rather than trial-and-error tuning:
 ### 7. Root Locus
 ![Root locus](results/07_root_locus.png)
 
+## Live Dashboard
+
+![HoverGuard Live Demo](results/dashboard_demo.gif)
+
+**HoverGuard** includes a real-time interactive control dashboard 
+built in MATLAB — not just static plots.
+
+### Features
+- Live altitude and error signal plots updating in real-time
+- Adjustable wind force slider (0.5N to 5N)
+- One-click wind gust trigger button
+- Automatic test log table recording overshoot % and settling time
+- Status indicator: STABLE / DISTURBED / RECOVERING
+
+### How to Launch
+Open MATLAB, navigate to src/ folder and run:
+```
+HoverGuard
+```
+
 ---
 
 ## Demo Video
@@ -105,7 +125,8 @@ rather than trial-and-error tuning:
    - disturbance_analysis.m
    - root_locus_analysis.m
 4. Open simulink/drone_altitude_model.slx for full simulation
-
+5. HoverGuard.m — Live interactive dashboard with wind gust simulator
+   
 ---
 
 ## Project Structure
