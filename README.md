@@ -105,7 +105,8 @@ rather than trial-and-error tuning:
    - disturbance_analysis.m
    - root_locus_analysis.m
 4. Open simulink/drone_altitude_model.slx for full simulation
-
+5. HoverGuard.m — Live interactive dashboard with wind gust simulator
+   
 ---
 
 ## Project Structure
